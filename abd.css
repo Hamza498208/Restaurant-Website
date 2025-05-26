@@ -1,0 +1,46 @@
+<style>
+.branches {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.branch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.branch img {
+    width: 100%;
+    height: auto;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.contact h2 {
+    margin-bottom: 20px;
+}
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+.contact ul li {
+    margin-bottom: 10px;
+}
+.contact ul li a {
+    color: #333;
+    text-decoration: none;
+}
+.contact ul li a:hover {
+    color: #777;
+}
